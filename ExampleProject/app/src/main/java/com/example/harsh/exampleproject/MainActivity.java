@@ -1,0 +1,25 @@
+package com.example.harsh.exampleproject;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+
+public class MainActivity extends AppCompatActivity {
+
+    public void clickFunction(View view){
+
+        Log.i( "Info", "Button Pressed");
+
+//        Log.i(tag: "Info", msg: "Button Pressed!");
+
+//        Log.i( tag: "Info", msg: "Button Pressed!");
+
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
